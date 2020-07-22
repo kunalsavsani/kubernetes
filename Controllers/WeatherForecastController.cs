@@ -13,7 +13,8 @@ namespace kubernetes.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "abc","Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "asd","abc","Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
